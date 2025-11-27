@@ -131,7 +131,7 @@ form {
 
 .section-card {
     background: #fff;
-    border-radius: 22px;
+    border-radius: 10px;
     border: 1px solid #ede7f1;
     padding: 24px 26px 28px;
     box-shadow: 0 14px 30px rgba(9, 17, 46, 0.08);
@@ -146,7 +146,7 @@ form {
     bottom: 0;
     width: 5px;
     background: linear-gradient(180deg, #e84b6d 0%, #da3f63 100%);
-    border-radius: 22px 0 0 22px;
+    border-radius: 10px 0 0 10px;
 }
 
 .section-title {

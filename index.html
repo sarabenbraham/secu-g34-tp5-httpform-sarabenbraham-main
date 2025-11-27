@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CinéPass – Inscription</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <div class="page-shell">
         <div class="form-wrapper">
-
             <header class="hero">
                 <div class="hero-content">
                     <div>
@@ -71,8 +67,6 @@
                         </div>
                     </section>
 
-
-
                     <section class="section-card" id="subscription">
                         <div class="section-title">
                             <h2>🎫 Formule d'abonnement</h2>
@@ -90,13 +84,13 @@
                                     <label class="radio-card">
                                         <input type="radio" name="plan" value="premium" />
                                         <span>
-                                            🥈 <strong>Premium</strong> – 10 séances/mois (4500 DA/mois)
+                                            🥈 <strong>Premium</strong> - 10 séances/mois (4500 DA/mois)
                                         </span>
                                     </label>
                                     <label class="radio-card">
                                         <input type="radio" name="plan" value="illimite" />
                                         <span>
-                                            🥇 <strong>Illimité</strong> – Séances illimitées (7000 DA/mois)
+                                            🥇 <strong>Illimité</strong> - Séances illimitées (7000 DA/mois)
                                         </span>
                                     </label>
                                 </div>
@@ -188,7 +182,6 @@
                         </div>
                     </section>
 
-
                     <section class="section-card" id="disponibilites">
                         <div class="section-title">
                             <h2>📅 Disponibilités et préférences</h2>
@@ -225,7 +218,6 @@
                             </label>
                         </div>
                     </section>
-
 
                     <section class="section-card" id="documents">
                         <div class="section-title">
@@ -267,7 +259,6 @@
     </div>
 
     <script>
-        // Mise à jour du slider en temps réel
         const frequencySlider = document.getElementById('frequency');
         const frequencyValue = document.getElementById('frequency-value');
 
@@ -275,7 +266,6 @@
             frequencyValue.textContent = this.value;
         });
 
-        // Gestion des fichiers uploadés
         document.querySelectorAll('.file-drop input[type="file"]').forEach(input => {
             input.addEventListener('change', function () {
                 const fileName = this.files[0] ? this.files[0].name : 'Aucun fichier choisi';
@@ -284,7 +274,6 @@
             });
         });
 
-        // Gestion du drag and drop
         document.querySelectorAll('.drop-area').forEach(dropArea => {
             dropArea.addEventListener('dragover', function (e) {
                 e.preventDefault();
